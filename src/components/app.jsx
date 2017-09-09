@@ -2,13 +2,16 @@
 
 import React, { Component } from 'react';
 
-import BookList from '../containers/book-list';
+import SearchBar from '../container/searchbar';
+import WeatherList from '../container/weather_list';
+
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <BookList />
+        <SearchBar />
+        <WeatherList />
       </div>
     );
   }
